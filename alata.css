@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 35%;
+    height: 47vh;
+    background-color: rgb(199, 199, 199);
+    justify-self: center;
+    margin-top: 40px;
+    box-shadow: 2px 4px 4px rgb(240, 240, 240);
+    padding: 30px;
+    border-radius: 30px;
+
+
+}
+
+#num1 {
+    padding: 10px;
+    border: 1px solid rgb(0, 225, 255);
+    border-radius: 10px;
+}
+
+#num2 {
+    padding: 10px;
+    border: 1px solid rgb(0, 225, 255);
+    border-radius: 10px;
+}
+
+.container h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container span {
+    color: orange;
+}
+
+.container button {
+    padding: 5px;
+    width: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(137, 165, 241);
+
+}
+
+.container button:hover {
+    background-color: aqua;
+}
+
+#showAnswer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}

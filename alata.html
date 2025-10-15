@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=in, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alata.css">
+</head>
+
+<body>
+    <div class="container">
+        <h4>Quick<span>Math</span></h4>
+        <div class="input">
+            <input id="num1" type="text" placeholder="first number">
+            <input id="num2" type="text" placeholder="first second">
+        </div>
+        <div>
+            <button onclick="sum()">+</button>
+            <button onclick="difference()">-</button>
+            <button onclick="product()">*</button>
+            <button onclick="quotient()">/</button>
+        </div>
+        <div id="showAnswer">Answer</div>
+    </div>
+
+</body>
+<script>
+    console.log(typeof (num1.value));
+    const sum = () => {
+        const answer = Number(num1.value) + Number(num2.value)
+        showAnswer.innerHTML = answer
+    }
+
+    console.log(typeof (num1.value));
+    const difference = () => {
+        const answer = Number(num1.value) - Number(num2.value)
+        showAnswer.innerHTML = answer
+    }
+
+    console.log(typeof (num1.value));
+    const product = () => {
+        const answer = Number(num1.value) * Number(num2.value)
+        showAnswer.innerHTML = answer
+    }
+
+    console.log(typeof (num1.value));
+    const quotient = () => {
+        const answer = Number(num1.value) / Number(num2.value)
+        showAnswer.innerHTML = answer
+    }
+
+    // console.log(typeof(num1.value));
+    // const sum = () => {
+    //     const answer = Number(num1.value) + Number (num2.value)
+    //     showAnswer.innerHTML = answer
+    // }
+
+</script>
+
+</html>
